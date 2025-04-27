@@ -6,4 +6,4 @@ scikit_learn==1.6.1
 tqdm==4.66.5
 streamlit==1.33.0
 numpy==1.26.4
-glob
+glob==0.7
