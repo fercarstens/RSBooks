@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import glob
-from sentence_transformers import SentenceTransformer, util
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 
