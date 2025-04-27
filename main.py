@@ -37,7 +37,7 @@ df["title_norm"] = df["title"].str.strip().str.lower()
 # Formulario de libros favoritos
 with st.form("form_recommend"):
     titles_input = st.text_area("Libros favoritos (uno por línea)", value="", height=100,
-                                 placeholder="Ejemplo (en inglés): 1984\nThe Notebook\nThe perks of being a wallflower")
+                                 placeholder="Ejemplo (en inglés): Twilight\nThe Notebook\nDivergent")
     st.caption("⚠️ Los títulos deben estar escritos en inglés para que puedan ser reconocidos.")
     submitted = st.form_submit_button("Recomendar 🔍")
 
